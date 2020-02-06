@@ -14,16 +14,16 @@ import Knex from '../Images/knex.png';
 import SQL from '../Images/SQL.png';
 
 
-const TopCardHolder = styled.div`
+const TopDiv = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  // width: 100%;
 `;
 
 const MainDiv = styled.div`
 width: 100%;
+opacity: .7;
 height: 30rem;
 max-width: 40rem;
 margin: 10px auto;
@@ -31,7 +31,7 @@ padding-bottom: 30px;
 background-color: #181415;
 box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 border: 1px solid black;
- border-radius: 5px;
+ border-radius: 80px;
   box-shadow: 5px 5px 8px #000000;
   transition: all 0.5s;
   &:hover {
@@ -40,7 +40,7 @@ border: 1px solid black;
   }
 `
 
-const Div = styled.div`
+const BabyDiv = styled.div`
   width: 100%;
   max-width: 30rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -69,9 +69,9 @@ function Languages() {
     <div>
      
     <MainDiv>
-       <TopCardHolder className="">
+       <TopDiv>
         <H1>Languages and Libraires</H1>
-        <Div>
+        <BabyDiv>
           <Html5 className="icon" title="HTML"/>
           <FileCss className="icon" title="CSS"/>
           <Javascript className="icon" title="Javascript"/>
@@ -85,8 +85,8 @@ function Languages() {
           <Sass className="icon" title="Sass"/>
           <Bootstrap className="icon" title="Bootstrap"/>
            
-          </Div>
-      </TopCardHolder> 
+          </BabyDiv>
+      </TopDiv> 
      </MainDiv>
      </div>
   );
