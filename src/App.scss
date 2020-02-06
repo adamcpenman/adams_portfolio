@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  // height: 100vh;
+  height: 80vh;
 }
 
 h1 {
@@ -19,13 +19,19 @@ body {
     background-position: right bottom;
     background-attachment: fixed;
     background-size: 300px;
-    background-color: black; 
+    background-color: #484445; 
 }
 
 .icon {
 width: 75px;
 height: 75px;
 color: white;
+}
+
+.icon2 {
+width: 75px;
+height: 75px;
+margin: 15px;
 }
 
 /* CIRCLE  */

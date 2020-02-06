@@ -7,7 +7,12 @@ import { Javascript } from 'styled-icons/boxicons-logos/Javascript';
 import { ReactLogo } from 'styled-icons/boxicons-logos/ReactLogo';
 import { Less } from 'styled-icons/boxicons-logos/Less';
 import { Bootstrap } from 'styled-icons/boxicons-logos/Bootstrap';
-import { Node } from 'styled-icons/fa-brands/Node'
+import { Node } from 'styled-icons/fa-brands/Node';
+import { Redux } from 'styled-icons/boxicons-logos/Redux';
+import { Sass } from 'styled-icons/boxicons-logos/Sass';
+import Knex from '../Images/knex.png';
+import SQL from '../Images/SQL.png';
+
 
 const TopCardHolder = styled.div`
   display: flex;
@@ -40,6 +45,7 @@ const Div = styled.div`
   margin: 0 auto;
   text-align: center;
   border-radius: 5px;
+  background-color: black;
   box-shadow: 5px 5px 8px #000000;
   transition: all 0.5s;
   &:hover {
@@ -59,15 +65,19 @@ function Languages() {
        <TopCardHolder className="">
         <H1>Languages and Libraires</H1>
         <Div>
-          <Html5 className="icon"/>
-          <FileCss className="icon"/>
-          <Javascript className="icon"/>
+          <Html5 className="icon" title="HTML"/>
+          <FileCss className="icon" title="CSS"/>
+          <Javascript className="icon" title="Javascript"/>
           <br/>
-          <Node className='icon'/>
-          <br/>
-         <ReactLogo className="icon"/>
-          <Less className="icon"/>
-          <Bootstrap className="icon"/>
+          <img src={Knex} alt="knex" title="knex" className="icon2" />
+          <Node className='icon' title="Node.JS"/>
+          <img src={SQL} alt="SQL" title="SQL" className="icon2" />
+            <br/>
+         <ReactLogo className="icon" title="React"/>
+          <Redux className="icon" title="Redux"/>
+          <Sass className="icon" title="Sass"/>
+          <Bootstrap className="icon" title="Bootstrap"/>
+           
           </Div>
       </TopCardHolder> 
      </MainDiv>
