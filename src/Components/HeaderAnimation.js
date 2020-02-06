@@ -5,7 +5,7 @@ function HeaderAnimation() {
   return (
         <div class="circle">
             <span class="circle__inner"> </span>
-                <h1>hello Hello</h1>
+                <h1 className="h1Main">hello Hello</h1>
         </div>
     );
 }

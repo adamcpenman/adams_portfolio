@@ -19,13 +19,16 @@ const TopCardHolder = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  // width: 100%;
 `;
 
 const MainDiv = styled.div`
 width: 100%;
+height: 30rem;
 max-width: 40rem;
 margin: 10px auto;
+padding-bottom: 30px;
+background-color: #181415;
 box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 border: 1px solid black;
  border-radius: 5px;
@@ -39,10 +42,10 @@ border: 1px solid black;
 
 const Div = styled.div`
   width: 100%;
-  max-width: 20rem;
+  max-width: 30rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  margin: 30px;
   padding: 25px 15px;
-  margin: 0 auto;
   text-align: center;
   border-radius: 5px;
   background-color: black;
@@ -56,11 +59,15 @@ const Div = styled.div`
 
 const H1 = styled.h1`
   width: 100%;
+  margin: 20px;
   text-align: center;
+  color: white;
 `;
 
 function Languages() {
   return (
+    <div>
+     
     <MainDiv>
        <TopCardHolder className="">
         <H1>Languages and Libraires</H1>
@@ -81,6 +88,7 @@ function Languages() {
           </Div>
       </TopCardHolder> 
      </MainDiv>
+     </div>
   );
 }
 
