@@ -1,42 +1,21 @@
 import React from 'react';
-import styled from 'styled-components';
+import '../Style/about.scss'
 
-const TopDiv = styled.div`
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  opacity: .8;
-  margin-top: 15px;
-  margin-bottom: 25px;
-  background-color: #181415;
-  border: 1px solid pink;
-  `
-
-  const MainDiv = styled.div`
-    margin: 40px;
-  `
-
-  const BabyDiv = styled.div`
-  width: 500px;
-  line-height: 1.5;
-  font-size: 17px;
-`
 
 function About() {
     return (
-        <TopDiv className="TopDiv">
-            <MainDiv className="MainDiv">
-                <BabyDiv className="slide">
-                    <h1> About Me</h1>
-                    <p>I'm taking the high road
-                    I'm high as fuck and these assholes won't shut up
-                    Got me laughing, I ain't losin' no sleep
-                    I'm taking the high road
-                    I'm high as fuck and I don't know where I'll end up
-                    But I'm laughing, I ain't losin' no sleep</p>
-                </BabyDiv>
-            </MainDiv>
-        </TopDiv>
+        <div className="TopDiv">
+            <div className="MainDiv">
+                <div className="BabyDiv">
+                    {/* <h2> About Me</h2> */}
+                    <p>Hello, Hello, Hello! My name is Adam Penman. Pronouns are 'He/Him/His'. I am a full-stack developer and a magical being. <br/>
+                        I have learned various different langaugaes and libraries, but constantly reviewing and 
+                        learning new ways to write code every day! I have attended Lambda School to 
+                        get an excellent base and grasp on concepts. Feel Free to contact me with any questions! 
+                    </p> 
+                </div>
+            </div>
+        </div>
     )
 }
 

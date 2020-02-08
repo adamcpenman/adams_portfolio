@@ -9,8 +9,18 @@
 
 .h1Main {
   color: white;
+  font-size: 60px;
   text-align: center;
-  padding-top: 170px;
+  padding-top: 150px;
+  margin: auto 0;
+}
+
+.h1Sub {
+  color: pink;
+  font-size: 35px;
+  margin: auto 0;
+  padding-top: 20px;
+  text-align: center;
 }
 
 body {
@@ -18,7 +28,7 @@ body {
     background-repeat: no-repeat;
     background-position: right bottom;
     background-attachment: fixed;
-    background-size: 300px;
+    background-size: 425px;
     background-color: #484445; 
     
 }
@@ -35,9 +45,15 @@ height: 75px;
 margin: 15px;
 }
 
+.footer-icons {
+width: 25px;
+height: 25px;
+padding: 7px;
+}
+
 /* CIRCLE  */
 :root {
-  --size: 400px;
+  --size: 450px;
   --speed:10s;
 }
 
@@ -83,21 +99,3 @@ margin: 15px;
   }
 }
 
-
-// About Me
-
-.slide {
-  
-    -webkit-animation: slide 0.5s forwards;
-    -webkit-animation-delay: 2s;
-    animation: slide 0.5s forwards;
-    animation-delay: 2s;
-}
-
-@-webkit-keyframes slide {
-    100% { left: 0; }
-}
-
-@keyframes slide {
-    100% { left: 0; }
-}
