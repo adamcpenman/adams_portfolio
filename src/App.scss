@@ -10,7 +10,8 @@
 .h1Main {
   color: white;
   text-align: center;
-  padding-top: 170px;
+  padding-top: 150px;
+  margin: auto 0;
 }
 
 body {
@@ -86,18 +87,3 @@ margin: 15px;
 
 // About Me
 
-.slide {
-  
-    -webkit-animation: slide 0.5s forwards;
-    -webkit-animation-delay: 2s;
-    animation: slide 0.5s forwards;
-    animation-delay: 2s;
-}
-
-@-webkit-keyframes slide {
-    100% { left: 0; }
-}
-
-@keyframes slide {
-    100% { left: 0; }
-}
