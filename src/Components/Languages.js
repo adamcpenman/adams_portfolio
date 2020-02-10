@@ -21,7 +21,6 @@ function Languages() {
 
       <div className="mainDiv">
         <div className="topDiv">
-          <h1>Languages and Libraires</h1>
           <div className="babyDiv">
             
             <Html5 className="icon" title="HTML" />
@@ -38,6 +37,7 @@ function Languages() {
             <Bootstrap className="icon" title="Bootstrap" />
 
           </div>
+          <p> For a fuller list of languages and libaries, Take a look at my resume <a href="/">here</a></p>
         </div>
       </div>
     </>
