@@ -17,7 +17,7 @@
     line-height: 1.5;
     font-size: 22px;
     color: white;
-    text-align: center;
+    text-align: left;
     background-color: black;
     box-shadow: 5px 5px 8px #000000;
     transition: all 0.5s;
@@ -25,6 +25,16 @@
     transform: translateY(-1rem) scale(1.03);
     box-shadow: 6px 6px 20px #000000;
             }
+             @media (max-width: 800px ) {
+                width: 90%;
+                margin: auto;
+                font-size: 15px;
+            }
+            // @media (max-width: 500px ) {
+            //     width: 90%;
+            //     margin: auto;
+            //     font-size: 13px;
+            // }
         }
     }
 }
@@ -48,13 +58,21 @@
     line-height: 1.5;
     font-size: 22px;
     color: white;
-    text-align: center;
+    text-align: right;
     background-color: black;
     box-shadow: 5px 5px 8px #000000;
     transition: all 0.5s;
     &:hover {
     transform: translateY(-1rem) scale(1.03);
     box-shadow: 6px 6px 20px #000000;
+            }
+             @media (max-width: 800px ) {
+                margin: auto;
+                font-size: 18px;
+            }
+            @media (max-width: 500px ) {
+                margin: auto;
+                font-size: 15px;
             }
         }
     }
