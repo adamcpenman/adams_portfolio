@@ -4,11 +4,14 @@ import '../Style/about.scss'
 
 function About() {
     return (
+        <>
+        <h1>A little about myself</h1>
         <div className="TopDiv">
+            
             <div className="MainDiv">
                 <div className="BabyDiv">
                     {/* <h2> About Me</h2> */}
-                    <p>Hello, Hello, Hello! My name is Adam Penman. Pronouns are 'He/Him/His'. I am a full-stack developer and a magical being. <br/>
+                    <p>Hello! My name is Adam Penman. Pronouns are 'He/Him/His'. I am a full-stack developer and a magical being. <br/>
                         I have learned various different langaugaes and libraries, but consistently reviewing and 
                         learning new ways to write code every day. I've attended Lambda School which has 
                         provided an excellent base and a grasp on core concepts. Currently, searching for the right full-time role as a 
@@ -18,6 +21,7 @@ function About() {
                 </div>
             </div>
         </div>
+        </>
     )
 }
 
