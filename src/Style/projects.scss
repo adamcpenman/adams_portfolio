@@ -6,7 +6,8 @@
     width: 100%;
     margin-top: 15px;
     margin-bottom: 25px;
-    background-color: #181415;
+    // background-color: #2B193D;
+    
 
 .MainDiv1 {
     width: 90%;
@@ -20,7 +21,9 @@
     font-size: 22px;
     color: white;
     text-align: left;
-    background-color: red;
+    border-radius: 45px;
+    color: #181415;
+    background-color:#C4BBB8;
     box-shadow: 5px 5px 8px #000000;
     transition: all 0.5s;
     &:hover {
@@ -49,7 +52,7 @@
     width: 100%;
     margin-top: 15px;
     margin-bottom: 25px;
-    background-color: #181415;
+    // background-color: #181415;
 
 .MainDiv2 {
     width: 90%;
@@ -63,7 +66,9 @@
     font-size: 22px;
     color: white;
     text-align: right;
-    background-color: red;
+    border-radius: 45px;
+    background-color:#C4BBB8;
+    color: #181415;
     box-shadow: 5px 5px 8px #000000;
     transition: all 0.5s;
     &:hover {
@@ -87,7 +92,7 @@
     width: 100%;
     margin-top: 15px;
     margin-bottom: 25px;
-    background-color: #181415;
+    // background-color: #181415;
 
 .MainDiv3 {
     width: 90%;
@@ -101,7 +106,9 @@
     font-size: 22px;
     color: white;
     text-align: left;
-    background-color: red;
+    border-radius: 45px;
+    background-color:#C4BBB8;
+    color: #181415;
     box-shadow: 5px 5px 8px #000000;
     transition: all 0.5s;
     &:hover {
@@ -152,4 +159,10 @@
             }
         }
     }
+}
+
+.borderP {
+    border-top: 2px dotted #B6B494;
+    margin-top: 45px;
+   
 }

@@ -5,7 +5,7 @@ import React from 'react'
 function Projects() {
 
     return (
-      <>
+      <div className="borderP">
         <div className="TopDiv1">
           <div className="MainDiv1">
             <div className="BabyDiv1">
@@ -61,7 +61,7 @@ function Projects() {
           </div>
         </div>
 
-</>
+</div>
     )
 }
 
