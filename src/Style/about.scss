@@ -4,29 +4,46 @@
     align-items: center;
     opacity: .8;
     width: 100%;
-    margin: auto;
-    // margin-top: 15px;
-    // margin-bottom: 25px;
-    background-color: #181415;
+    margin: 1px auto;
+    padding-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.37);
+         @media (max-width: 800px ) {
+                border: none;
+                box-shadow: none;
+            }
 
 .MainDiv {
-    margin: 40px;
+    margin-top: 5px;
+    margin-top: 5px;
 
 .BabyDiv {
-    width: 80%;
-    margin: auto;
-    padding: 10px;
-    line-height: 1.5;
+    width: 85%;
+    margin: 10px auto;
+    padding: 45px;
     font-size: 22px;
-    color: white;
     text-align: center;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.555);
+    color: white;
     box-shadow: 5px 5px 8px #000000;
     transition: all 0.5s;
     &:hover {
     transform: translateY(-1rem) scale(1.03);
     box-shadow: 6px 6px 20px #000000;
             }
+            @media (max-width: 800px ) {
+                width: 70%;
+                font-size: 18px;
+                border-radius: 0px;
+                opacity: .7;
+                color: whitesmoke;
+
+            }
         }
     }
+}
+
+.aboutTitle {
+    margin: 10px auto;
+    color: #181415;
+    text-align: center;
 }

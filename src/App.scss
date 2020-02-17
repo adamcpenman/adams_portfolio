@@ -1,19 +1,10 @@
 .App {
   text-align: center;
-  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 80vh;
 }
-
-// .h1Main {
-//   color: white;
-//   font-size: 60px;
-//   text-align: center;
-//   padding-top: 150px;
-//   margin: auto 0;
-// }
 
 .glow {
    color: white;
@@ -21,11 +12,6 @@
   text-align: center;
   padding-top: 150px;
   margin: auto 0;
-  // color: #fff;
-  // text-align: center;
-  // -webkit-animation: glow 1s ease-in-out infinite alternate;
-  // -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
 }
 
 @keyframes glow {
@@ -38,7 +24,6 @@
 }
 
 
-
 .h1Sub {
   color: pink;
   font-size: 35px;
@@ -48,13 +33,10 @@
 }
 
 body {
-    background-image:url('./Images/unicorn.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.781), rgba(59, 1, 65, 0.808)) , url('./Images/unicorn.png') center center;
     background-repeat: no-repeat;
     background-position: right bottom;
     background-attachment: fixed;
-    background-size: 425px;
-    background-color: #484445; 
-    
 }
 
 .icon {

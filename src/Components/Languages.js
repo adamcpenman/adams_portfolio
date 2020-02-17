@@ -17,12 +17,13 @@ import SQL from '../Images/SQL.png';
 
 function Languages() {
   return (
-    <>
-
+    <div className="border">
+      <h1 className="langTitle">Langauges & Libraries</h1>
       <div className="mainDiv">
         <div className="topDiv">
+
           <div className="babyDiv">
-            
+
             <Html5 className="icon" title="HTML" />
             <FileCss className="icon" title="CSS" />
             <Javascript className="icon" title="Javascript" />
@@ -40,7 +41,7 @@ function Languages() {
           <p> For a fuller list of languages and libaries, Take a look at my resume <a href="/">here</a></p>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
