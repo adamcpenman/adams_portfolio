@@ -1,13 +1,12 @@
 .TopDiv1 {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     opacity: .8;
     width: 100%;
     margin-top: 5px;
     margin-bottom: 5px;
-    // background-color: #2B193D;
     @media (max-width: 1000px ) {
                 flex-flow: row wrap;
             }
@@ -19,11 +18,9 @@
     margin: 10px auto;
 
 .BabyDiv1 {
-    width: 90%;
-    max-width: 500px;
+    width: 100%;
+    padding:  20px;
     margin: 10px auto;
-    padding: 18px;
-    // line-height: 1.5;
     font-size: 18px;
     text-align: center;
     border-radius: 45px;
@@ -40,114 +37,13 @@
                 padding: 40px;
                 font-size: 15px;
             }
-            // @media (max-width: 500px ) {
-            //     width: 90%;
-            //     margin: auto;
-            //     font-size: 13px;
-            // }
-        }
-    }
-}
-
-.TopDiv2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: .8;
-    width: 100%;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    // background-color: #2B193D;
-
-.MainDiv2 {
-     // width: 90%;
-    margin: 10px;
-
-.BabyDiv2 {
-width: 80%;
-    max-width: 600px;
-    margin: 10px auto;
-    padding: 20px;
-    // line-height: 1.5;
-    font-size: 20px;
-    text-align: center;
-    border-radius: 45px;
-    color: #181415;
-    background-color:#C4BBB8;
-    box-shadow: 5px 5px 8px #000000;
-    transition: all 0.5s;
-    &:hover {
-    transform: translateY(-1rem) scale(1.03);
-    box-shadow: 6px 6px 20px #000000;
-            }
-             @media (max-width: 800px ) {
-                width: 80%;
-                padding: 40px;
-                margin: 10px auto;
-                font-size: 15px;
-            ul {
-                list-style-type: none;
-                // border: 1px solid red;
-                margin-right: 40px;
-                }
-            }
-            // @media (max-width: 500px ) {
-            //     width: 90%;
-            //     margin: auto;
-            //     font-size: 13px;
-            // }
-        }
-    }
-}
-
-
-.TopDiv3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: .8;
-    width: 100%;
-    margin-top: 5px;
-    margin-bottom: 5px;
-
-.MainDiv3 {
-    // width: 90%;
-    margin: 10px;
-
-.BabyDiv3 {
-    width: 80%;
-    max-width: 600px;
-    margin: 10px auto;
-    padding: 20px;
-    // line-height: 1.5;
-    font-size: 22px;
-    text-align: center;
-    border-radius: 45px;
-    color: #181415;
-    background-color:#C4BBB8;
-    box-shadow: 5px 5px 8px #000000;
-    transition: all 0.5s;
-    &:hover {
-    transform: translateY(-1rem) scale(1.03);
-    box-shadow: 6px 6px 20px #000000;
-            }
-             @media (max-width: 800px ) {
-                width: 80%;
-                padding: 40px;
-                font-size: 15px;
-            }
-            // @media (max-width: 500px ) {
-            //     width: 90%;
-            //     margin: auto;
-            //     font-size: 13px;
-            // }
         }
     }
 }
 
 .TopDiv4 {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     opacity: .8;
     width: 100%;
@@ -178,7 +74,121 @@ width: 80%;
 
 .borderP {
     border-top: 2px dotted #B6B494;
-    margin-top: 45px;
-   
+    margin-top: 50px;
 }
+
+.projTitle {
+     margin: 10px auto;
+     margin-top: 20px;
+    color: #181415;
+    text-align: 
+    center;
+}
+
+.border2 {
+    border-bottom: 2px dotted #BC8DBD;
+    margin-top: 25px;
+}
+
+
+
+
+//not using
+
+// .TopDiv2 {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     opacity: .8;
+//     width: 100%;
+//     margin-top: 5px;
+//     margin-bottom: 5px;
+//     // background-color: #2B193D;
+
+// .MainDiv2 {
+//      // width: 90%;
+//     margin: 10px;
+
+// .BabyDiv2 {
+// width: 80%;
+//     max-width: 600px;
+//     margin: 10px auto;
+//     padding: 20px;
+//     // line-height: 1.5;
+//     font-size: 20px;
+//     text-align: center;
+//     border-radius: 45px;
+//     color: #181415;
+//     background-color:#C4BBB8;
+//     box-shadow: 5px 5px 8px #000000;
+//     transition: all 0.5s;
+//     &:hover {
+//     transform: translateY(-1rem) scale(1.03);
+//     box-shadow: 6px 6px 20px #000000;
+//             }
+//              @media (max-width: 800px ) {
+//                 width: 80%;
+//                 padding: 40px;
+//                 margin: 10px auto;
+//                 font-size: 15px;
+//             ul {
+//                 list-style-type: none;
+//                 // border: 1px solid red;
+//                 margin-right: 40px;
+//                 }
+//             }
+//             // @media (max-width: 500px ) {
+//             //     width: 90%;
+//             //     margin: auto;
+//             //     font-size: 13px;
+//             // }
+//         }
+//     }
+// }
+
+
+// .TopDiv3 {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     opacity: .8;
+//     width: 100%;
+//     margin-top: 5px;
+//     margin-bottom: 5px;
+
+// .MainDiv3 {
+//     // width: 90%;
+//     margin: 10px;
+
+// .BabyDiv3 {
+//     width: 80%;
+//     max-width: 600px;
+//     margin: 10px auto;
+//     padding: 20px;
+//     // line-height: 1.5;
+//     font-size: 22px;
+//     text-align: center;
+//     border-radius: 45px;
+//     color: #181415;
+//     background-color:#C4BBB8;
+//     box-shadow: 5px 5px 8px #000000;
+//     transition: all 0.5s;
+//     &:hover {
+//     transform: translateY(-1rem) scale(1.03);
+//     box-shadow: 6px 6px 20px #000000;
+//             }
+//              @media (max-width: 800px ) {
+//                 width: 80%;
+//                 padding: 40px;
+//                 font-size: 15px;
+//             }
+//             // @media (max-width: 500px ) {
+//             //     width: 90%;
+//             //     margin: auto;
+//             //     font-size: 13px;
+//             // }
+//         }
+//     }
+// }
+
 

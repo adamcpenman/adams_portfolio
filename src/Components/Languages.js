@@ -18,12 +18,12 @@ import SQL from '../Images/SQL.png';
 function Languages() {
   return (
     <div className="border">
- <h1 className="langTitle">Langauges & Libraries</h1>
+      <h1 className="langTitle">Langauges & Libraries</h1>
       <div className="mainDiv">
         <div className="topDiv">
-         
+
           <div className="babyDiv">
-            
+
             <Html5 className="icon" title="HTML" />
             <FileCss className="icon" title="CSS" />
             <Javascript className="icon" title="Javascript" />
