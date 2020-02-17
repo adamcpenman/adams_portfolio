@@ -5,7 +5,7 @@ import '../Style/about.scss'
 function About() {
     return (
         <>
-        <h1>A little about myself</h1>
+        <h1 className="aboutTitle">A little about myself</h1>
         <div className="TopDiv">
             
             <div className="MainDiv">
@@ -16,7 +16,7 @@ function About() {
                         learning new ways to write code every day. I've attended Lambda School which has 
                         provided an excellent base and a grasp on core concepts. Currently, searching for the right full-time role as a 
                         Software Developer. I want to be able to create dynamic, creative, user friendly content while
-                        having the necessary tools for a continious learning environment and expand my skills as a Software Developer! Feel Free to contact me with any questions! 
+                        having the necessary tools for a continious learning environment and expand my skills as a Software Developer! 
                     </p> 
                 </div>
             </div>
