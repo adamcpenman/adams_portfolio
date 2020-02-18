@@ -7,31 +7,24 @@
 
 .mainDiv {
   width: 100%;
-  opacity: .7;
-  height: 30rem;
-  max-width: 40rem;
-  margin: 10px auto;
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.37);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  border: 1px solid black;
-  border-radius: 80px;
   box-shadow: 5px 5px 8px #000000;
   transition: all 0.5s;
       @media (max-width: 800px ) {
                 border: none;
                 box-shadow: none;
-                color: whitesmoke;
-            }
+        }
 }
 
 .babyDiv {
   width: 100%;
   max-width: 30rem;
+  margin: 20px auto;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  margin: 65px;
-  padding: 25px 15px;
   text-align: center;
-  border-radius: 50px;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.61);
   box-shadow: 5px 5px 8px #000000;
   transition: all 0.5s;
   &:hover {
@@ -49,11 +42,7 @@
 .langTitle {
     margin: 10px auto;
     margin-top: 20px;
-    color: #181415;
+    color: pink;
     text-align: center;
 }
 
-.border {
-    border-top: 2px dotted #95B4B5;
-    margin-top: 25px;
-}

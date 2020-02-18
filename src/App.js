@@ -1,4 +1,5 @@
 import React from 'react';
+import FadeIn from 'react-fade-in';
 
 import HeaderAnimation from "./Components/HeaderAnimation"
 import About from "./Components/About"
@@ -9,17 +10,21 @@ import styled from "styled-components"
 
 
 function App() {
+
   return (
-    <div>
+    <>
+    <FadeIn delay={500}>
     <div className="App">
     <HeaderAnimation/>
     </div>
+      </FadeIn>
+        <FadeIn delay={1500} transitionDuration={4000}>
     <About/>
     <Languages/>
     <Projects/>
     <Footer/>
-    </div>
-
+    </FadeIn>
+</>
   );
 }
 

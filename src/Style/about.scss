@@ -8,8 +8,7 @@
     padding-bottom: 10px;
     background-color: rgba(0, 0, 0, 0.37);
          @media (max-width: 800px ) {
-                border: none;
-                box-shadow: none;
+                
             }
 
 .MainDiv {
@@ -19,12 +18,10 @@
 .BabyDiv {
     width: 85%;
     margin: 10px auto;
-    padding: 45px;
+    padding: 20px;
     font-size: 22px;
     text-align: center;
-    // background-color: rgba(0, 0, 0, 0.555);
-    color: white;
-    // box-shadow: 5px 5px 8px #000000;
+    color: rgba(245, 245, 245, 0.753);
     transition: all 0.5s;
     &:hover {
     transform: translateY(-1rem) scale(1.03);
@@ -44,6 +41,6 @@
 
 .aboutTitle {
     margin: 10px auto;
-    color: #181415;
+    color: pink;
     text-align: center;
 }

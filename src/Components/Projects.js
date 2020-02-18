@@ -5,8 +5,7 @@ import '../Style/projects.scss'
 function Projects() {
 
   return (
-    <div className="borderP">
-      <div className="border2">
+      <>
         <h1 className="projTitle">Projects</h1>
         <div className="TopDiv1">
           <div className="MainDiv1">
@@ -64,18 +63,19 @@ function Projects() {
               <a href="/">GitHub Repo</a>
             </div>
           </div>
+           </div>
+           <h2 className="projTitle"> GitHub Repos</h2>
           <div className="TopDiv4">
             <div className="MainDiv4">
               <div className="BabyDiv4">
-                <h2> GitHub Repos</h2>
                 <p>Please take a look at my other various projects, code, and the rest of my repos on <a href="/">GitHub</a></p>
               </div>
             </div>
           </div>
 
-        </div>
-      </div>
-    </div>
+       
+ </>
+   
   )
 }
 

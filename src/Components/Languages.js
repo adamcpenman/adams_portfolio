@@ -27,18 +27,18 @@ function Languages() {
             <Html5 className="icon" title="HTML" />
             <FileCss className="icon" title="CSS" />
             <Javascript className="icon" title="Javascript" />
-            <br />
-            <img src={Knex} alt="knex" title="knex" className="icon2" />
-            <Node className='icon' title="Node.JS" />
-            <img src={SQL} alt="SQL" title="SQL" className="icon2" />
-            <br />
+            <br/>
             <ReactLogo className="icon" title="React" />
             <Redux className="icon" title="Redux" />
             <Sass className="icon" title="Sass" />
             <Bootstrap className="icon" title="Bootstrap" />
+              <br/>
+             <img src={Knex} alt="knex" title="knex" className="icon2" />
+            <Node className='icon' title="Node.JS" />
+            <img src={SQL} alt="SQL" title="SQL" className="icon2" />
 
           </div>
-          <p> For a fuller list of languages and libaries, Take a look at my resume <a href="/">here</a></p>
+          {/* <p> For a fuller list of languages and libaries, Take a look at my resume <a href="/">here</a></p> */}
         </div>
       </div>
     </div>
