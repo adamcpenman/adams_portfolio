@@ -13,18 +13,21 @@ function App() {
 
   return (
     <>
-    <FadeIn delay={500}>
-    <div className="App">
-    <HeaderAnimation/>
-    </div>
+      <FadeIn delay={500}>
+        <div className="App">
+          <HeaderAnimation />
+        </div>
       </FadeIn>
-        <FadeIn delay={1500} transitionDuration={4000}>
-    <About/>
-    <Languages/>
-    <Projects/>
-    <Footer/>
-    </FadeIn>
-</>
+      <FadeIn delay={1500} transitionDuration={4000}>
+        <About />
+        <Languages />
+      </FadeIn>
+      <FadeIn delay={5000} transitionDuration={5000}>
+        <Projects />
+        <Footer />
+      </FadeIn>
+      
+    </>
   );
 }
 
