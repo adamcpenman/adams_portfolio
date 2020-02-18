@@ -5,21 +5,24 @@ import '../Style/projects.scss'
 function Projects() {
 
   return (
-    <div className="borderP">
-      <div className="border2">
+      <>
         <h1 className="projTitle">Projects</h1>
         <div className="TopDiv1">
           <div className="MainDiv1">
             <div className="BabyDiv1">
               <h2> Weight-Lifting-Journal Back-End API</h2>
               <h4>Express | Knex | Sqlite | jsonwebtoken | bcryptjs | jest</h4>
-              <ul >
+              {/* <ul >
                 <li>Created a database using knex migrations/seeds</li>
                 <li>Register/Login users creating tokens + encrypting the password</li>
                 <li>End points for CRUD application requests</li>
                 <li>Created Jest Tests for each endpoint </li>
                 <li>Restricted paths unless a user is logged in.</li>
-              </ul>
+              </ul> */}
+              <p>Here I create a database using SQL, Express, knex migrations/seeds. Users have the ability
+                to register or login. The passwords are encrypted and each session creates a token.
+                There are end points for a full CRUD application requests. Each end point has restricted path
+                unless a user is logged into the application. Jest testing was implemented throughout. </p>
               <a href="/">GitHub Repo</a>
             </div>
           </div>
@@ -64,18 +67,19 @@ function Projects() {
               <a href="/">GitHub Repo</a>
             </div>
           </div>
+           </div>
+           <h2 className="projTitle"> GitHub Repos</h2>
           <div className="TopDiv4">
             <div className="MainDiv4">
               <div className="BabyDiv4">
-                <h2> GitHub Repos</h2>
-                <p>Please take a look at my other various projects, code, and the rest of my repos on <a href="/">GitHub</a></p>
+                <p>Please take a look at my other various projects, code, and the rest of my repos on <a href="https://github.com/adamcpenman">GitHub</a></p>
               </div>
             </div>
           </div>
 
-        </div>
-      </div>
-    </div>
+       
+ </>
+   
   )
 }
 
