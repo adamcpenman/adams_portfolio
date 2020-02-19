@@ -1,7 +1,6 @@
 import React from 'react'
 import '../Style/projects.scss'
 
-
 function Projects() {
 
   return (
@@ -19,7 +18,7 @@ function Projects() {
                 <li>Created Jest Tests for each endpoint </li>
                 <li>Restricted paths unless a user is logged in.</li>
               </ul> */}
-              <p>Here I create a database using SQL, Express, knex migrations/seeds. Users have the ability
+              <p>For this project, I created a database using SQL, Express, knex migrations/seeds. Users have the ability
                 to register or login. The passwords are encrypted and each session creates a token.
                 There are end points for a full CRUD application requests. Each end point has restricted path
                 unless a user is logged into the application. Jest testing was implemented throughout. </p>

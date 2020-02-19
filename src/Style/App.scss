@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
   display: flex;
@@ -5,7 +6,7 @@
   align-items: center;
   height: 80vh;
    @media (max-width: 500px) {
-              height: 100vh;
+              height: 90vh;
           }
 }
 
@@ -15,6 +16,10 @@
   text-align: center;
   padding-top: 150px;
   margin: auto 0;
+  // color: #fff;
+  //  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  // -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
   @media (max-width: 500px) {
         font-size: 30px;
         padding-top: 100px;
@@ -42,21 +47,21 @@
 }
 
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.855), rgba(48, 1, 53, 0.897)) , url('./Images/unicorn.png') center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.855), rgba(48, 1, 53, 0.897)) , url('../Images/unicorn.png') center center scroll;
     background-repeat: no-repeat;
     background-position: right bottom;
     background-attachment: fixed;
    @media (max-width: 500px) {
-              background-attachment: scroll;
-              background-repeat: repeat-x;
-          }
+                background-position: top center;
+                // background-attachment: scroll;
+              }
 }
 
 .icon {
 width: 100px;
 height: 100px;
 padding-bottom: 10px;
-color: white;
+color: whitesmoke;
 }
 
 .icon2 {
@@ -77,6 +82,7 @@ padding: 7px;
   --speed:10s;
    @media(max-width: 500px) {
      --size: 300px;
+    
    }
 }
 
