@@ -8,6 +8,7 @@
     background-color: rgba(0, 0, 0, 0.37);
     @media (max-width: 500px ) {
                 flex-flow: column;
+               
             }
     
 .MainDiv1 {
@@ -38,9 +39,9 @@
             }
              @media (max-width: 500px ) {
                 width: 70%;
-                height: 400px;
-                padding: 40px;
-                font-size: 15px;
+                height: 100%;
+                padding: 10px;
+                font-size: 13px;
             }
         }
     }
