@@ -12,7 +12,7 @@
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   box-shadow: 5px 5px 8px #000000;
   transition: all 0.5s;
-      @media (max-width: 800px ) {
+      @media (max-width: 500px ) {
                 border: none;
                 box-shadow: none;
         }
@@ -31,7 +31,7 @@
     transform: translateY(-1rem) scale(1.03);
     box-shadow: 6px 6px 20px #000000;
   }
-         @media (max-width: 800px ) {
+         @media (max-width: 500px ) {
                 width: 70%;
                 font-size: 18px;
                 border-radius: 0px;
