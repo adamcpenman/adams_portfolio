@@ -1,6 +1,5 @@
 import React from 'react';
-import '../Style/language.scss'
-import styled from "styled-components";
+
 
 import { Html5 } from 'styled-icons/boxicons-logos/Html5';
 import { FileCss } from 'styled-icons/boxicons-solid/FileCss';
