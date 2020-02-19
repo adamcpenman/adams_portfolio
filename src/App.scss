@@ -4,6 +4,10 @@
   justify-content: center;
   align-items: center;
   height: 80vh;
+   @media (max-width: 500px) {
+              border: 1px solid red;
+              height: 100vh;
+          }
 }
 
 .glow {
@@ -12,6 +16,10 @@
   text-align: center;
   padding-top: 150px;
   margin: auto 0;
+  @media (max-width: 500px) {
+      font-size: 30px;
+      padding-top: 100px;
+    }
 }
 
 @keyframes glow {
@@ -29,6 +37,9 @@
   margin: auto 0;
   padding-top: 20px;
   text-align: center;
+    @media (max-width: 500px) {
+      font-size: 20px;
+    }
 }
 
 body {
@@ -36,6 +47,10 @@ body {
     background-repeat: no-repeat;
     background-position: right bottom;
     background-attachment: fixed;
+   @media (max-width: 400px) {
+              background-attachment: scroll;
+              background-position: middle;
+          }
 }
 
 .icon {
@@ -61,6 +76,9 @@ padding: 7px;
 :root {
   --size: 450px;
   --speed:10s;
+   @media(max-width: 500px) {
+     --size: 300px;
+   }
 }
 
 .circle {

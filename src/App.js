@@ -22,7 +22,7 @@ function App() {
         <About />
         <Languages />
       </FadeIn>
-      <FadeIn delay={5000} transitionDuration={5000}>
+      <FadeIn delay={3000} transitionDuration={4000}>
         <Projects />
         <Footer />
       </FadeIn>
