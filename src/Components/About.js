@@ -1,10 +1,10 @@
 import React from 'react';
-import '../Style/about.scss'
+
 
 
 function About() {
     return (
-        <>
+        <div id="ScrollToAbout"> <br/>
             <h1 className="aboutTitle">A little about myself</h1>
             <div className="TopDiv">
 
@@ -20,7 +20,7 @@ function About() {
                     </div>
                 </div>
             </div>
-        </>
+       </div>
     )
 }
 
