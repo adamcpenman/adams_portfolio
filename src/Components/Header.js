@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
-import { ArrowDown } from 'styled-icons/remix-line/ArrowDown'
+import { ArrowDownCircle } from 'styled-icons/remix-line/ArrowDownCircle'
 
 
 function Header() {
@@ -19,7 +19,7 @@ function Header() {
           isDynamic={true}
           ignoreCancelEvents={false}
         > 
-        <ArrowDown className="headerArrow"/>
+        <ArrowDownCircle className="arrow"/>
         </Link>
       </div>
     </div>

@@ -11,7 +11,7 @@
 }
 
 .glow {
-   color: white;
+   color: whitesmoke;
   font-size: 60px;
   text-align: center;
   padding-top: 150px;
@@ -19,7 +19,7 @@
   // color: #fff;
   //  -webkit-animation: glow 1s ease-in-out infinite alternate;
   // -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
+  // animation: glow 1s ease-in-out infinite alternate;
   @media (max-width: 500px) {
         font-size: 30px;
         padding-top: 100px;
@@ -31,9 +31,13 @@
     text-shadow:0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073;
   }
   to {
-    text-shadow:0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6;
+    text-shadow:0 0 30px #ff4da6, 0 0 20px #ff4da6, 0 0 30px #ff4da6, 0 0 40px #ff4da6;
   }
 }
+
+// A9A889
+// 8BA7AC
+// AD86AD
 
 .h1Sub {
   color: pink;
@@ -71,9 +75,10 @@ margin: 15px;
 }
 
 .footer-icons {
-width: 25px;
-height: 25px;
+width: 35px;
+height: 35px;
 padding: 7px;
+margin-top: 20px;
 }
 
 /* CIRCLE  */
@@ -140,20 +145,52 @@ padding: 7px;
   justify-content: center;
 
   }
-  .headerArrow {
-    width: 50px;
-    color: white;
-    // font-size: 1.5rem;
-    // background: none;
-    // margin: 0 auto;
-    cursor: pointer;
-    margin-top: 5%;
+$stem-height: 80px;
+$stem-width: 6px;
+$pointer-width: 6px;
+$pointer-space: 20px;
 
-  
-  }
-  .headerButton:focus {
-    outline: 0;
-  }
-  .headerButton:active {
-    box-shadow: 2px 2px blue;
-  }
+.arrow {
+  width: $stem-width;
+  height: $stem-height;
+  margin: 5% auto;
+  background: linear-gradient(to bottom, rgba(255,255,255,0), white 75%);
+  animation: 1s soft-blink infinite alternate;
+ 
+  opacity: 0;
+  width: 40px;
+  color: white;
+  font-size: 1.5rem;
+  background: none;
+  margin: 0 auto;
+  cursor: pointer;
+  margin-top: 5%;
+}
+
+@-webkit-keyframes soft-blink {
+  0% { opacity: 0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 0.7; }
+}
+
+@keyframes soft-blink {
+  0% { opacity: 0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 0.7; }
+}
+
+.arrow:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: - ($pointer-space + $stem-width) / 2;
+  border-bottom: $pointer-width solid white;
+  border-right: $pointer-width solid white;
+  border-top: $pointer-width solid white;
+  border-left: $pointer-width solid white;
+  border-radius: 4px;
+  width: 20px;
+  height: 20px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
