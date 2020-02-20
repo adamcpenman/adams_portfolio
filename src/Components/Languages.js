@@ -5,7 +5,7 @@ import { Html5 } from 'styled-icons/boxicons-logos/Html5';
 import { FileCss } from 'styled-icons/boxicons-solid/FileCss';
 import { Javascript } from 'styled-icons/boxicons-logos/Javascript';
 import { ReactLogo } from 'styled-icons/boxicons-logos/ReactLogo';
-import { Less } from 'styled-icons/boxicons-logos/Less';
+import { Git } from 'styled-icons/boxicons-logos/Git';
 import { Bootstrap } from 'styled-icons/boxicons-logos/Bootstrap';
 import { Node } from 'styled-icons/fa-brands/Node';
 import { Redux } from 'styled-icons/boxicons-logos/Redux';
@@ -26,14 +26,16 @@ function Languages() {
             <Html5 className="icon" title="HTML" />
             <FileCss className="icon" title="CSS" />
             <Javascript className="icon" title="Javascript" />
-            <br/>
             <ReactLogo className="icon" title="React" />
+            <br/>
             <Redux className="icon" title="Redux" />
             <Sass className="icon" title="Sass" />
             <Bootstrap className="icon" title="Bootstrap" />
-              <br/>
-             <img src={Knex} alt="knex" title="knex" className="icon2" />
+             <Git className="icon" title="Git"/>
+             <br/>
+            
             <Node className='icon' title="Node.JS" />
+             <img src={Knex} alt="knex" title="knex" className="icon2" />
             <img src={SQL} alt="SQL" title="SQL" className="icon2" />
 
           </div>
