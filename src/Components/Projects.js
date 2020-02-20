@@ -22,12 +22,11 @@ function Projects() {
             <div className="BabyDiv1">
               <h2> Crud Application with Redux State Management</h2>
               <h4>React | Redux | Axios | Bootstrap</h4>
-              <ul>
-                <li>Created a fully functional CRUD application</li>
-                <li>Each request is called by Axios for CRUD</li>
-                <li>Redux is managing and logging each endpoint</li>
-                <li>Client side routing for each component</li>
-              </ul>
+              <p>
+              Fully functioning CRUD application with Redux State Management.
+              Each request is being called by axios. Client side routing for each
+              componenet. Bootstrap was implemented for design and style.
+            </p>
               <a href="/">GitHub Repo</a>
             </div>
           </div>
@@ -46,7 +45,7 @@ function Projects() {
             </div>
           </div>
 
-          <div className="MainDiv1">
+          {/* <div className="MainDiv1">
             <div className="BabyDiv1">
               <h2> Crud Application with Redux State Management</h2>
               <h4>React | Redux | Axios | Bootstrap</h4>
@@ -58,7 +57,7 @@ function Projects() {
               </ul>
               <a href="/">GitHub Repo</a>
             </div>
-          </div>
+          </div> */}
            </div>
            <h2 className="projTitle"> GitHub Repos</h2>
           <div className="TopDiv4">
