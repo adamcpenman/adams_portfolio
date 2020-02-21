@@ -7,10 +7,9 @@
     width: 100%;
     background-color: rgba(0, 0, 0, 0.37);
     @media (max-width: 500px ) {
-                flex-flow: column;
-                background-color:  rgba(0, 0, 0, 0.00);
-               
-            }
+            flex-flow: column;
+            background-color:  rgba(0, 0, 0, 0.00);
+               }
     
 .MainDiv1 {
     background-color: rgba(0, 0, 0, 0.60);
@@ -18,11 +17,14 @@
     width: 100%;
     max-width: 500px;
     margin: 30px;
+    transition: all 0.5s;
+    &:hover {
+        transform: translateY(-1rem) scale(1.03);
+        }
     @media (max-width: 500px ) {
-                width: 70%;
-                background-color:  rgba(0, 0, 0, 0.00);
-                box-shadow: none;
-            }
+            background-color:  rgba(0, 0, 0, 0.00);
+            box-shadow: none;
+        }
 
 .BabyDiv1 {
     width: 100%;
@@ -32,9 +34,10 @@
     margin: 10px auto;
     font-size: 18px;
     text-align: center;
-     color: rgba(245, 245, 245, 0.753);
-    background-color: rgba(0, 0, 0, 0.60);
-    
+    color: rgba(245, 245, 245, 0.753);
+    text-align: center;
+    background-color: black;
+    box-shadow: 5px 5px 8px #000000;
     transition: all 0.5s;
     &:hover {
     transform: translateY(-1rem) scale(1.03);
@@ -50,7 +53,7 @@
     }
 }
 
-.TopDiv4 {
+.TopDiv2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,10 +67,10 @@
     }
     
 
-.MainDiv4 {
+.MainDiv2 {
     margin: 40px;
 
-.BabyDiv4 {
+.BabyDiv2 {
     width: 100%;
     padding: 10px;
     line-height: 1.5;
@@ -87,7 +90,6 @@
                 padding: 10px;
                 font-size: 15px;
             }
-        
         }
     }
 }

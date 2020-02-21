@@ -5,7 +5,12 @@ body {
 font-family: 'Rubik', sans-serif;
 }
 
+@import 'colors';
 @import 'App';
+@import 'circle';
+@import 'circletext';
+@import 'arrow';
 @import 'about';
 @import 'language';
 @import 'projects';
+@import 'footer';
