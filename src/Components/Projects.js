@@ -1,10 +1,10 @@
 import React from 'react'
-
+import Fade from 'react-reveal/Fade';
 
 function Projects() {
-
   return (
-      <div id="ScrollToProjects">
+   <div id="ScrollToProjects">
+      <Fade right cascade>
         <h1 className="projTitle">Projects</h1>
         <div className="TopDiv1" >
           <div className="MainDiv1">
@@ -23,9 +23,9 @@ function Projects() {
               <h2> Crud Application with Redux State Management</h2>
               <h4>React | Redux | Axios | Bootstrap</h4>
               <p>
-              Fully functioning CRUD application with Redux State Management.
-              Each request is being called by axios. Client side routing for each
-              componenet. Bootstrap was implemented for design and style.
+                Fully functioning CRUD application with Redux State Management.
+                Each request is being called by axios. Client side routing for each
+                componenet. Bootstrap was implemented for design and style.
             </p>
               <a href="/">GitHub Repo</a>
             </div>
@@ -45,32 +45,20 @@ function Projects() {
             </div>
           </div>
 
-          {/* <div className="MainDiv1">
-            <div className="BabyDiv1">
-              <h2> Crud Application with Redux State Management</h2>
-              <h4>React | Redux | Axios | Bootstrap</h4>
-              <ul>
-                <li>Created a fully functional CRUD application</li>
-                <li>Each request is called by Axios for CRUD</li>
-                <li>Redux is managing and logging each endpoint</li>
-                <li>Client side routing for each component</li>
-              </ul>
-              <a href="/">GitHub Repo</a>
-            </div>
-          </div> */}
-           </div>
-           <h2 className="projTitle"> GitHub Repos</h2>
-          <div className="TopDiv4">
-            <div className="MainDiv4">
-              <div className="BabyDiv4">
-                <p>Please take a look at my other various projects, code, and the rest of my repos on <a href="https://github.com/adamcpenman">GitHub</a></p>
-              </div>
+        </div>
+        <h2 className="projTitle"> GitHub Repos</h2>
+        <div className="TopDiv4">
+          <div className="MainDiv4">
+            <div className="BabyDiv4">
+              <p>Please take a look at my other various projects, code, and the rest of my repos on <a href="https://github.com/adamcpenman">GitHub</a></p>
             </div>
           </div>
+        </div>
 
-       
- </div>
-   
+      </Fade>
+    </div>
+
+
   )
 }
 
