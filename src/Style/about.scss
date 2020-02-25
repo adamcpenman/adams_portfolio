@@ -20,7 +20,7 @@
     padding: 20px;
     font-size: 22px;
     text-align: center;
-    color: rgba(245, 245, 245, 0.753);
+    color: $lightgray;
     transition: all 0.5s;
     &:hover {
     transform: translateY(-1rem) scale(1.03);
