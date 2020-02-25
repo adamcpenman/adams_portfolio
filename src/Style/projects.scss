@@ -96,7 +96,9 @@
 
 .projTitle {
      margin: 45px;
-     color: pink;
+     font-size: 50px;
+     text-decoration: underline overline;
+     color: $tearose;
+     font-weight: bolder;
      text-align: center;
 }
-
