@@ -3,8 +3,10 @@
     justify-content: center;
     align-items: center;
     opacity: .8;
-    width: 100%;
-    margin: 1px auto;
+    width: 105%;
+    margin-left: -20px;
+  
+    // margin: 1px auto;
     padding-bottom: 10px;
     background-color: rgba(0, 0, 0, 0.37);
          @media (max-width: 500px ) {
@@ -12,8 +14,8 @@
             }
 
 .MainDiv {
-    margin-top: 5px;
-    margin-top: 5px;
+    // margin-top: 5px;
+    // margin-top: 5px;
 
 .BabyDiv {
     width: 85%;
@@ -48,4 +50,13 @@
      @media (max-width: 500px ) {
                 margin-top: 80px;
             }
+}
+
+.TopDiv {
+  transform:rotate(4deg);
+}
+
+.BabyDiv p {
+//   margin-right:10%;
+  transform:rotate(-4deg);
 }

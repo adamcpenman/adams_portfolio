@@ -57,8 +57,9 @@ function Projects() {
         </Fade>
       </div>
 
+
+      <h2 className="projTitle"> GitHub Repos</h2>
       <Fade right cascade delay={300}>
-        <h2 className="projTitle"> GitHub Repos</h2>
         <div className="TopDiv2">
           <div className="MainDiv2">
             <div className="BabyDiv2">
