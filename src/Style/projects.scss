@@ -4,26 +4,32 @@
     justify-content: center;
     align-items: center;
     opacity: .8;
-    width: 100%;
+    width: 107%;
     background-color: rgba(0, 0, 0, 0.37);
-    @media (max-width: 500px ) {
+    margin-left: -45px;
+    transform:rotate(4deg);
+     @media (max-width: 1075px ) {
             flex-flow: column;
-            background-color:  rgba(0, 0, 0, 0.00);
+            width: 120%;
+            transform:rotate(1deg);
+               }
+    @media (max-width: 500px ) {
+            transform:rotate(2deg);
                }
     
 .MainDiv1 {
-    // background-color: rgba(0, 0, 0, 0.60);
-    // box-shadow: 5px 5px 8px #000000;
     width: 100%;
     max-width: 500px;
     margin: 30px;
     transition: all 0.5s;
+    transform:rotate(-3deg);
     &:hover {
         transform: translateY(-1rem) scale(1.03);
         }
     @media (max-width: 500px ) {
             background-color:  rgba(0, 0, 0, 0.00);
             box-shadow: none;
+        
         }
 
 .BabyDiv1 {
@@ -43,8 +49,13 @@
     transform: translateY(-1rem) scale(1.03);
     box-shadow: 6px 6px 20px #000000;
             }
-             @media (max-width: 500px ) {
+            @media (max-width: 1000px ) {
                 width: 90%;
+                height: 100%;
+            }
+            
+             @media (max-width: 500px ) {
+                width: 80%;
                 height: 100%;
                 padding: 10px;
                 font-size: 15px;
@@ -58,12 +69,14 @@
     justify-content: center;
     align-items: center;
     opacity: .8;
-    width: 100%;
+    width: 105%;
+    margin-left: -40px;
     margin-top: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
     background-color: #181415;
+    transform:rotate(-4deg);
     @media (max-width: 500px) {
-        background-color:  rgba(0, 0, 0, 0.00);
+        width: 115%;
     }
     
 
@@ -77,8 +90,7 @@
     font-size: 22px;
     color: rgba(245, 245, 245, 0.753);
     text-align: center;
-    background-color: black;
-    box-shadow: 5px 5px 8px #000000;
+    transform:rotate(4deg);
     transition: all 0.5s;
     &:hover {
     transform: translateY(-1rem) scale(1.03);
@@ -95,10 +107,12 @@
 }
 
 .projTitle {
-     margin: 45px;
-     font-size: 50px;
-     text-decoration: underline overline;
-     color: $tearose;
-     font-weight: bolder;
-     text-align: center;
+    margin: 55px;
+    color: $tearose;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline overline;
+     @media (max-width: 500px ) {
+                font-size: 30px;
+            }
 }

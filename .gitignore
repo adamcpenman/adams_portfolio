@@ -24,4 +24,4 @@ yarn-error.log*
 
 adampenman.key
 server.csr
-server.ket
+server.key
