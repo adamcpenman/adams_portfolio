@@ -71,9 +71,9 @@ function Contact() {
             Send
           </button>
         </form>*/ }
-            <div className="TopDiv">
-                <div className="MainDiv">
-                    <div className="babyDiv">
+            <div className="TopDivC">
+                <div className="MainDivC">
+                    <div className="babyDivC">
                         <ul>
                             <li>location: Chicago, IL</li>
                             <li><a href="mailto:adamcpenman@gmail.com">email</a>: adamcpenman@gmail.com</li>
