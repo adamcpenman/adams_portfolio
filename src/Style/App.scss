@@ -11,16 +11,40 @@
 }
 
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.855), rgba(48, 1, 53, 0.897)) , url('../Images/unicorn.png') center center scroll;
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-attachment: fixed;
+  outline: none;
+  margin: 0;
+  color: #fff;
+  overflow-x: hidden;
+  background: linear-gradient(rgba(0, 0, 0, 0.855), rgba(48, 1, 53, 0.897)) , url('../Images/unicorn.png') center center scroll;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-attachment: fixed;
    @media (max-width: 500px) {
                 background-position: top center;
                 // background-attachment: scroll;
               }
 }
 
+//.overflow {
+  //    outline: none;
+  // margin: 0;
+  // color: #fff;
+  // overflow-x: hidden;
+//}
+
+//.overflow::after {
+  // overflow:hidden;
+// position:absolute;
+//     content: "";
+//     display:block;
+//     left:0;
+//     bottom:-40px;
+//     width: 100%;
+//     z-index: 99;
+//     width: 0;
+//     height: 0;
+//     border-color: #111 transparent transparent transparent;
+//}
 
 
 
