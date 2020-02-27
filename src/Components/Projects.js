@@ -54,6 +54,25 @@ function Projects() {
               <a href="/">GitHub Repo</a>
             </div>
           </div>
+          <div className="MainDiv1">
+            <div className="BabyDiv1">
+              <h2> Dark-Mode</h2>
+              <h4>React | Axios | Local Storage</h4>
+              <ul>
+                <li>
+                  Implemented the usage of React Hooks while creating components
+                </li>
+                <li>Created a custom hook to store data in local storage</li>
+                <li>
+                  Created a dark-mode component to toggle between light/dark
+                </li>
+                <li>
+                  Axios calls are being made to receive data from a web API
+                </li>
+              </ul>
+              <a href="/">GitHub Repo</a>
+            </div>
+          </div>
         </Fade>
       </div>
 
