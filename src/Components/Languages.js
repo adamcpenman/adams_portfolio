@@ -39,7 +39,7 @@ function Languages() {
             <img src={SQL} alt="SQL" title="SQL" className="icon2" />
 
           </div>
-          {/* <p> For a fuller list of languages and libaries, Take a look at my resume <a href="/">here</a></p> */}
+          <p className="pL"> For a full list of languages, libaries, and frameworks - Take a look at my resume <a href="/">here</a></p>
         </div>
       </div>
     </div>

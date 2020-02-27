@@ -10,11 +10,12 @@
     transform:rotate(4deg);
      @media (max-width: 1075px ) {
             flex-flow: column;
-            width: 120%;
-            transform:rotate(1deg);
-               }
-    @media (max-width: 500px ) {
+            width: 110%;
             transform:rotate(2deg);
+               }
+    @media (max-width: 600px ) {
+            transform:rotate(2deg);
+            margin-left: -25px;
                }
     
 .MainDiv1 {
@@ -49,12 +50,12 @@
     transform: translateY(-1rem) scale(1.03);
     box-shadow: 6px 6px 20px #000000;
             }
-            @media (max-width: 1000px ) {
+            @media (max-width: 1075px ) {
                 width: 90%;
                 height: 100%;
             }
             
-             @media (max-width: 500px ) {
+             @media (max-width: 600px ) {
                 width: 80%;
                 height: 100%;
                 padding: 10px;
@@ -97,12 +98,12 @@
     font-size: 22px;
     color: $lightgray;
     text-align: center;
-    transform:rotate(4deg);
-    transition: all 0.5s;
-    &:hover {
-    transform: translateY(-1rem) scale(1.03);
-    box-shadow: 6px 6px 20px #000000;
-            }
+    transform:rotate(3deg);
+    // transition: all 0.5s;
+    // &:hover {
+    // transform: translateY(-1rem) scale(1.03);
+    // box-shadow: 6px 6px 20px #000000;
+    //         }
              @media (max-width: 500px ) {
                 height: 100%;
                 padding: 10px;
