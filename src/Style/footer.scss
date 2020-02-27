@@ -1,8 +1,14 @@
 .footer-icons {
-  width: 35px;
-  height: 35px;
-  padding: 7px;
-  margin-top: 20px;
+  width: 55px;
+  height: 55px;
+  color: pink;
+  padding: 15px;
+  margin-top: 60px;
+  @media (max-width: 600px ) {
+              width: 45px;
+              height: 45px;
+              color: $tearose;
+            }
   }
 
   .footerDiv {

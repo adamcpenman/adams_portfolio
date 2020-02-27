@@ -9,7 +9,7 @@
     background-color: rgba(0, 0, 0, 0.37);
          @media (max-width: 700px ) {
              width: 110%;
-             margin-left: 10px;
+             margin-left: -20px;
             }
 
 .MainDiv {
@@ -27,9 +27,9 @@
     transform: translateY(-1rem) scale(1.03);
     box-shadow: 6px 6px 20px #000000;
             }
-            @media (max-width: 500px ) {
-                background-color: rgba(0, 0, 0, 0.37);
-                width: 90%;
+            @media (max-width: 600px ) {
+                // background-color: rgba(0, 0, 0, 0.37);
+                width: 80%;
                 font-size: 18px;
                 border-radius: 0px;
                 opacity: .7;
