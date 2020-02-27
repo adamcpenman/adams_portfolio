@@ -7,6 +7,7 @@ import About from "./Components/About"
 import Languages from "./Components/Languages"
 import Projects from "./Components/Projects"
 import Footer from "./Components/Footer"
+import Contact from "./Components/Contact"
 
 
 
@@ -27,6 +28,7 @@ function App() {
       </FadeIn>
     
         <Projects />
+        <Contact/>
         <Footer />
       
       

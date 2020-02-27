@@ -14,11 +14,11 @@
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   // box-shadow: 5px 5px 8px #000000;
   transition: all 0.5s;
-      @media (max-width: 500px ) {
+      @media (max-width: 700px ) {
                 border: none;
                 box-shadow: none;
                 width: 110%;
-               
+               margin-left: -10px;
         }
 }
 
@@ -50,7 +50,7 @@
     text-align: center;
     font-size: 50px;
     text-decoration: underline overline;
-     @media (max-width: 500px ) {
+     @media (max-width: 700px ) {
                 font-size: 30px;
             }
 }
