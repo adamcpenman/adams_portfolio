@@ -5,8 +5,10 @@
   justify-content: center;
   align-items: center;
   height: 85vh;
-   @media (max-width: 500px) {
+   @media (max-width: 600px) {
               height: 70vh;
+              margin: 0;
+              overflow-x: hidden;
           }
 }
 
