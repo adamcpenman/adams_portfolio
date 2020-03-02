@@ -17,7 +17,7 @@ import SQL from '../Images/SQL.png';
 function Languages() {
   return (
     <div className="border">
-      <h1 className="langTitle">Langauges & Libraries</h1>
+      <h1 className="langTitle">Languages & Libraries</h1>
       <div className="mainDiv">
         <div className="topDiv">
 
