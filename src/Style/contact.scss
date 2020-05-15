@@ -1,172 +1,41 @@
-// .ContactDiv {
-//     background-color: $rgbaBlack;
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-//     transform:rotate(4deg);
-//     width: 105%;
-//     margin-left: -10px;
-//     @media (max-width: 1075px ) {
-//             flex-flow: column;
-//             width: 120%;
-//             transform:rotate(1deg);
-//                }
-//     @media (max-width: 500px ) {
-//             transform:rotate(2deg);
-//                }
-// }
-
-// form {
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-//     margin: 10px auto;
-//     transform:rotate(-4deg);
-//     width: 60%;
-//     @media (max-width: 1075px ) {
-//             transform:rotate(-1deg);
-//                }
-//     @media (max-width: 500px ) {
-//             transform:rotate(-2deg);
-//                }
-// }
-
-// .inputHolder { 
-//     width: 60%;
-//     height: 30px;
-//     border-radius: 15px;
-//     background-color: black;
-//     border: none;
-//     margin-top: 15px;
-//     margin-bottom: 6px;
-//     padding: 3%;
-//     font-size: 20px;
-//     color: $lightgray;
-//     outline: none;
-//      box-shadow: 5px 5px 8px #000000;
-//     transition: all 0.5s;
-//     &:hover {
-//     transform: translateY(-1rem) scale(1.03);
-//     box-shadow: 6px 6px 20px #000000;
-//             }
-//             @media (max-width: 1000px ) {
-//                 font-size: 15px;
-//                 width: 60%;
-//                 height: 100%;
-//                 margin-left: -20px;
-//             }
-// }
-
-// .textHolder {
-//     height: 130px;
-//     width: 60%;
-//     border-radius: 15px;
-//     background-color: black;
-//     margin-top: 15px;
-//     border: none;
-//     font-size: 20px;
-//     margin-bottom: 4px;
-//     color: $lightgray;
-//     padding: 3%;
-//     outline: none;
-//     box-shadow: 5px 5px 8px #000000;
-//     transition: all 0.5s;
-//     &:hover {
-//     transform: translateY(-1rem) scale(1.03);
-//     box-shadow: 6px 6px 20px #000000;
-//             }
-//             @media (max-width: 1000px ) {
-//                 font-size: 15px;
-//                 width: 60%;
-//                 height: 100%;
-//                 margin-left: -20px;
-//             }
-// }
-
-// .formButton {
-//     margin: 15px;
-//     height: 20px;
-//     width: 20%;
-//     border: none;
-//     outline: none;
-//     border-radius: 15px;
-//     background-color: $lightgray;
-//     color: black;
-//      cursor: pointer;
-//     transition: all 0.5s;
-//     &:hover {
-//     background-color: $tearose;
-//     font-weight: bold;
-//     }
-//      @media (max-width: 1000px ) {
-//                 margin-left: -20px;
-//             }
-          
-// }
-
-
 .contactTitle {
- margin: 55px;
-    color: $tearose;
-    text-align: center;
-    font-size: 50px;
-    text-decoration: underline overline;
-     @media (max-width: 700px ) {
-                font-size: 30px;
-            }
+  color: #d4afb9;
+  text-align: center;
+  font-size: 55px;
+  margin: 7rem;
+  text-decoration: underline overline;
 }
 
 .TopDivC {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: .8;
-    width: 105%;
-    margin-left: -20px;
-    margin-top: 15px;
-    margin-bottom: 40px;
-    background-color: #181415;
-    transform:rotate(4deg);
-    @media (max-width: 1075px) {
-        width: 110%;
-        margin-left: 5px;
-        margin-left: -25px;
-    }
-    @media (max-width: 500px) {
-        width: 110%;
-       }
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+  width: 110%;
+  margin-left: -27px;
+  padding-bottom: 10px;
+  border: 1px solid #d4afb9;
+  transform: rotate(-4deg);
+  @media (max-width: 768px) {
+    transform: rotate(0deg);
+  }
+  &:hover {
+    border: 1px solid black;
+  }
 
-.MainDivC {
-    margin: 40px;
-     
-    
-
-.babyDivC {
-    width: 105%;
-    margin-left: -30px;
-    padding: 10px;
-    line-height: 1.5;
-    font-size: 22px;
-    color: $lightgray;
-    text-align: center;
-    transform:rotate(-4deg);
-    transition: all 0.5s;
-    a {
-        text-decoration: none;
-        color: $tearose;
+  .MainDivC {
+    .BabyDivC {
+      width: 85%;
+      margin: 20px auto;
+      margin-left: 35px;
+      padding: 20px;
+      text-align: center;
+      color: white;
+      font-size: 30px;
+      transform: rotate(4deg);
+      @media (max-width: 768px) {
+        transform: rotate(0deg);
+      }
     }
-    &:hover {
-    transform: translateY(-.3rem) scale(1.03);
-    box-shadow: 6px 6px 20px #000000;
-            }
-             @media (max-width: 700px ) {
-                height: 100%;
-                padding: 10px;
-                font-size: 15px;
-            }
-        }
-    }
+  }
 }

@@ -19,10 +19,15 @@ function About() {
                 every day. I've attended Lambda School which has provided an
                 excellent base and a grasp on core concepts. Please take a look
                 at all of my work on{' '}
-                <a href='https://github.com/adamcpenman' target='_blank'>
+                <a
+                  href='https://github.com/adamcpenman'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   {' '}
                   Github
                 </a>
+                .
                 <br /> <br />
                 Currently, searching for the right full-time role as a Software
                 Developer. I want to be able to create dynamic, creative, user

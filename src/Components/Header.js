@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import { ArrowDownCircle } from 'styled-icons/remix-line/ArrowDownCircle';
 
 function Header() {
   return (
@@ -17,9 +16,7 @@ function Header() {
           delay={200}
           isDynamic={true}
           ignoreCancelEvents={false}
-        >
-          {/* <ArrowDownCircle className="arrow"/> */}
-        </Link>
+        ></Link>
       </div>
     </div>
   );
