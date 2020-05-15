@@ -1,81 +1,110 @@
-import React from "react";
-import Fade from "react-reveal/Fade";
+import React from 'react';
 
 function Projects() {
   return (
-    <div id="ScrollToProjects">
-      <h1 className="projTitle">Projects</h1>
-      <div className="TopDiv1">
-        <Fade right cascade delay={300}>
-          <div className="MainDiv1">
-            <div className="BabyDiv1">
-              <h2> Weight-Lifting-Journal Back-End API</h2>
-              <h4>Express | Knex | Sqlite | jsonwebtoken | bcryptjs | jest</h4>
+    <div>
+      <h1 className='projTitle'>Projects</h1>
+      <div className='TopDiv1'>
+        <div className='MainDiv1'>
+          <div className='BabyDiv1'>
+            <h2 className='projectTitle'>
+              <a href='https://guarded-contact-keeper.herokuapp.com/'>
+                Contact Keeper
+              </a>
+            </h2>
+            <p>
+              Express | MongoDB | React | jsonwebtoken | bcryptjs
+              <br /> <br />
+              In this project, I created a backend API using NodeJS & Express.
+              The database is created through MongoDB, along with bcryptjs and
+              jsonwebtoken for added protection of data. The frontend
+              implementation is a fully functional React application. A user can
+              create an account which will be saved in MongoDB. Users have a
+              fully functioning CRUD application for their own personal online
+              address book. <br />
+              <br />
+              <a
+                href='https://github.com/adamcpenman/ContactKeeper'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                Full Repo
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className='TopDiv2'>
+        <div id='ScrollToProjects'>
+          <div className='MainDiv2'>
+            <div className='BabyDiv2'>
+              <h2 className='projectTitle2'>
+                <a href='/'>Weight-Lifting-Journal Back-End API</a>
+              </h2>
               <p>
+                Express | Knex | Sqlite | jsonwebtoken | bcryptjs | jest
+                <br /> <br />
                 For this project, I created a database using SQL, Express, knex
                 migrations/seeds. Users have the ability to register or login.
                 The passwords are encrypted and each session creates a token.
                 There are end points for a full CRUD application requests. Each
                 end point has restricted path unless a user is logged into the
-                application. Jest testing was implemented throughout.{" "}
-              </p>
-              <a href="https://github.com/weightlift-wept8/Back-End" target="_blank">GitHub Repo</a>
-            </div>
-          </div>
-          <div className="MainDiv1">
-            <div className="BabyDiv1">
-              <h2>Redux State Management with Axios Calls</h2>
-              <h4>React | Redux | Axios</h4>
-              <p>
-                Implemented Redux for state management. Created Get and Post
-                requests through Axios. Rendered data to application 
-                and the ability to post new data to server. 
-              </p>
-              <a href="https://github.com/adamcpenman/Sprint-Challenge-State-Management-Smurfs/tree/adam-penman" target="_blank">GitHub Repo</a>
-            </div>
-          </div>
-
-          <div className="MainDiv1">
-            <div className="BabyDiv1">
-              <h2> Crud Application + Dark-Mode</h2>
-              <h4>React | Custom Hooks | Local Storage | Bootstrap </h4>
-              <p> Fully funcitonal CRUD application. Able to Create, Read, Update, 
-                and Delete data. Implemented custom hook to store data in Local Storage. 
-                Implemented the usage of React Hooks while creating components.
-                Feature to toggle on and off Dark Mode.
-              </p>
-              <a href="https://github.com/adamcpenman/reactdarkmode" target="_blank">GitHub Repo</a>
-            </div>
-          </div>
-          <div className="MainDiv1">
-            <div className="BabyDiv1">
-              <h2> Nasa Photo of the Day</h2>
-              <h4>React | Axios | Styled-Components </h4>
-            <p>Pulls data from NASA Api. Displays photo of the day. 
-              Made pages fully responsive based on screen size. 
-              Implemented minimal design using styled-components.
-            </p>
-            <a href="https://github.com/adamcpenman/nasa-photo-of-the-day" target="_blank">GitHub Repo</a>
-            </div>
-          </div>
-        </Fade>
-      </div>
-
-
-      <h2 className="projTitle"> GitHub Repos</h2>
-      <Fade right cascade delay={300}>
-        <div className="TopDiv2">
-          <div className="MainDiv2">
-            <div className="BabyDiv2">
-              <p>
-                Please take a look at my other various projects, code, and the
-                rest of my repos on
-                <a href="https://github.com/adamcpenman" target="_blank">GitHub</a>
+                application. Jest testing was implemented throughout. <br />
+                <br />
+                <a
+                  href='https://github.com/weightlift-wept8/Back-End'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  Backend Repo
+                </a>
               </p>
             </div>
           </div>
         </div>
-      </Fade>
+      </div>
+      <div className='TopDiv1'>
+        <div id='ScrollToProjects'>
+          <div className='MainDiv1'>
+            <div className='BabyDiv1'>
+              <h2 className='projectTitle'>
+                <a href='/'>Where Have you been with Google Maps.</a>
+              </h2>
+              <p>
+                Express | MongoDB | Multer | Axios | bcryptjs | jsonwebtoken |
+                React
+                <br /> <br />
+                For this project, I created the backend with NodeJS and Express
+                while the database is created MongoDB. Axios is being
+                implemented to make calls to the exisiting Google API to
+                retrieve Google Map coordiances while saving the retrieved data
+                in MongoDB. Multer is being used for the ability to upload am
+                avatar or picture. The frontend application is built with React
+                giving the user the ability to create an account and log places
+                they have been. The user will have the capability to see other
+                user's places, but only have the capability to have full CRUD
+                applicatiion on the logged in user. It is a full MERN stack.{' '}
+                <br />
+                <br />
+                <a
+                  href='https://github.com/adamcpenman/MERN-FE'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  Frontend Repo
+                </a>{' '}
+                <a
+                  href='https://github.com/adamcpenman/MERN-BE'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  Backend Repo
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

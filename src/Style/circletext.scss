@@ -1,33 +1,22 @@
-.glow {
-  color: whitesmoke;
- font-size: 60px;
- text-align: center;
- padding-top: 150px;
- margin: auto 0;
- // animation: glow 1s ease-in-out infinite alternate;
- @media (max-width: 500px) {
-       font-size: 35px;
-       padding-top: 100px;
-   }
+.h1Main {
+  color: #d4afb9;
+  font-size: 55px;
+  text-align: center;
+  padding-top: 180px;
+  margin: auto 0;
+  @media (max-width: 768px) {
+    font-size: 65px;
+    padding-top: 80px;
+  }
 }
-
-@keyframes glow {
- from {
-   text-shadow:0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073;
- }
- to {
-   text-shadow:0 0 30px #ff4da6, 0 0 20px #ff4da6, 0 0 30px #ff4da6, 0 0 40px #ff4da6;
- }
-}
-
 
 .h1Sub {
- color: pink;
- font-size: 35px;
- margin: auto 0;
- padding-top: 20px;
- text-align: center;
-   @media (max-width: 500px) {
-         font-size: 20px;
-   }
+  color: #f6e8ea;
+  font-size: 35px;
+  margin: auto 0;
+  padding-top: 20px;
+  text-align: center;
+  @media (max-width: 768px) {
+    font-size: 27px;
+  }
 }

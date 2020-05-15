@@ -12,25 +12,26 @@ const A = styled.a`
 
 function Footer() {
   return (
-    <div className="footerDiv">
-      <A href="http://www.facebook.com/adambullet" target="_blank">
-        <FacebookSquare className="footer-icons" />
+    <div className='footerDiv'>
+      <A href='http://www.facebook.com/adambullet' target='_blank'>
+        <FacebookSquare className='footer-icons' />
       </A>
-      <A href="https://github.com/adamcpenman" target="_blank">
-        <Github className="footer-icons" />
+      <A href='https://github.com/adamcpenman' target='_blank'>
+        <Github className='footer-icons' />
       </A>
-      <A href="https://www.linkedin.com/in/adamcpenman/" target="_blank">
-        <LinkedinSquare className="footer-icons" />
+      <A href='https://www.linkedin.com/in/adamcpenman/' target='_blank'>
+        <LinkedinSquare className='footer-icons' />
       </A>
-      <A href="https://www.instagram.com/adambullet/" target="_blank">
-        <Instagram className="footer-icons" />
+      <A href='https://www.instagram.com/adambullet/' target='_blank'>
+        <Instagram className='footer-icons' />
       </A>
       <A
-        href="https://open.spotify.com/playlist/22J8LlcJBk3Qmd0m07dw8T?si=R6fjSZD5R-Cyj7HdziPsPg"
-        target="_blank">
-        <Spotify className="footer-icons" />
+        href='https://open.spotify.com/playlist/1St1SvL1bH7ieuzJpsFPXU?si=bp6trk1GSLKGjFiVJ6K9BA'
+        target='_blank'
+      >
+        <Spotify className='footer-icons' />
       </A>
-      <h5>Adam Penman ©2019</h5>
+      <h5>Adam Penman ©2020</h5>
     </div>
   );
 }

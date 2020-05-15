@@ -1,15 +1,13 @@
-import React from "react";
-import { Link } from "react-scroll";
-import { ArrowDownCircle } from 'styled-icons/remix-line/ArrowDownCircle'
-
+import React from 'react';
+import { Link } from 'react-scroll';
 
 function Header() {
   return (
-    <div className="headerText">
-      <div className="headerBox" id="ScrollToHeader">
+    <div className='headerText'>
+      <div className='headerBox' id='ScrollToHeader'>
         <Link
-          activeClass="active"
-          to="ScrollToAbout"
+          activeClass='active'
+          to='ScrollToAbout'
           spy={true}
           smooth={true}
           hashSpy={true}
@@ -18,9 +16,7 @@ function Header() {
           delay={200}
           isDynamic={true}
           ignoreCancelEvents={false}
-        > 
-        <ArrowDownCircle className="arrow"/>
-        </Link>
+        ></Link>
       </div>
     </div>
   );

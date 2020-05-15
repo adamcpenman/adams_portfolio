@@ -1,93 +1,25 @@
-import React, { useState } from "react";
-import axios from "axios";
-
+import React from 'react';
 
 function Contact() {
-    //   const [grabForm, putForm] = useState({
-    //     email: "",
-    //     subject: "",
-    //     body: ""
-    //   });
-    //   const changeHandler = e => {
-    //     e.preventDefault();
-    //     putForm({
-    //       ...grabForm,
-    //       [e.target.name]: e.target.value
-    //     });
-    //   };
-    //   const submitHandler = e => {
-    //     e.preventDefault();
-    //     if (grabForm.email === "" || grabForm.subject === "" || grabForm.body === "") {
-    //      return alert("BITCH");
-    //     } else {
-    //       axios
-    //         .post(
-    //         "http://portfoliobe.herokuapp.com/api/email",
-    //           grabForm
-    //         )
-    //         .then(() => {
-    //           putForm({
-    //             email: "",
-    //             subject: "",
-    //             body: ""
-    //           });
-    //         })
-    //         .catch(() => {
-    //         });
-    //     }
-    //   };
-    return (
-        <>
-            <h1 className="contactTitle">Contact Info</h1>
-            {/* <div className="ContactDiv" id="ScrollToContact"> */}
-
-
-            {/* <form submitHandler={submitHandler}>
-          <input
-            type="email"
-            name="email"
-            className="inputHolder"
-            placeholder="Email"
-            value={grabForm.email}
-            onChange={changeHandler}
-          />
-          <input
-            type="text"
-            name="subject"
-           className="inputHolder"
-            placeholder="Subject"
-            value={grabForm.subject}
-            onChange={changeHandler}
-          />
-          <textarea
-            type="text"
-            name="body"
-            className="textHolder"
-            placeholder="Your Message"
-            value={grabForm.body}
-            onChange={changeHandler}
-          />
-          <button className="formButton" type="submit">
-            Send
-          </button>
-        </form>*/ }
-            <div className="TopDivC">
-                <div className="MainDivC">
-                    <div className="babyDivC">
-                        <ul>
-                            <li>location: Chicago, IL</li>
-                            <li><a href="mailto:adamcpenman@gmail.com">email</a>: adamcpenman@gmail.com</li>
-                            <li>socials: please see below!</li>
-                            {/* <ul><a href="mailto:adamcpenman@gmail.com">Contact us!</a></ul> */}
-                        </ul>
-                    </div>
-                </div>
-                
-            </div>
-           
-            {/* <a href="mailto:adamcpenman@gmail.com">Contact us!</a> */}
-        </>
-    );
+  return (
+    <>
+      <h1 className='contactTitle'>Contact</h1>
+      <div className='TopDivC'>
+        <div className='MainDivC'>
+          <div className='BabyDivC'>
+            <p>
+              Feel free to contect me through the email below or find me on any
+              of my social medias! I'd love to chat.
+              <br />
+              <br />
+              <br />
+              <a href='mailto:adamcpenman@gmail.com'>adamcpenman@gmail.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </>
+  );
 }
 
 export default Contact;

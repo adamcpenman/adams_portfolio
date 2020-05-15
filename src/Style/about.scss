@@ -1,63 +1,48 @@
 .TopDiv {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: .8;
-    width: 105%;
-    margin-left: -20px;
-    padding-bottom: 10px;
-    background-color: rgba(0, 0, 0, 0.37);
-         @media (max-width: 700px ) {
-             width: 110%;
-             margin-left: -20px;
-            }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+  width: 110%;
+  margin-left: -27px;
+  padding-bottom: 10px;
+  border: 1px solid #d4afb9;
+  background-color: rgb(41, 40, 40);
+  &:hover {
+    border: 1px solid black;
+  }
+  transform: rotate(4deg);
+  @media (max-width: 768px) {
+    transform: rotate(0deg);
+  }
 
-.MainDiv {
+  .MainDiv {
+    .BabyDiv {
+      width: 85%;
+      margin: 20px auto;
+      margin-left: 35px;
+      padding: 20px;
+      font-size: 22px;
+      text-align: left;
 
-
-.BabyDiv {
-    width: 85%;
-    margin: 10px auto;
-    padding: 20px;
-    font-size: 22px;
-    text-align: center;
-    color: $lightgray;
-    transition: all 0.5s;
-    &:hover {
-    transform: translateY(-1rem) scale(1.03);
-    box-shadow: 6px 6px 20px #000000;
-            }
-            @media (max-width: 600px ) {
-                // background-color: rgba(0, 0, 0, 0.37);
-                width: 80%;
-                font-size: 18px;
-                border-radius: 0px;
-                opacity: .7;
-                color: whitesmoke;
-
-            }
-        }
+      color: white;
+      transition: all 0.5s;
     }
+  }
 }
 
 .aboutTitle {
-    margin: 55px;
-    margin-top: 150px;
-    color: $tearose;
-    text-align: center;
-    font-size: 50px;
-    text-decoration: underline overline;
-     @media (max-width: 700px ) {
-                margin-top: 80px;
-                font-size: 30px;
-            }
-}
-
-.TopDiv {
-  transform:rotate(4deg);
+  color: #d4afb9;
+  text-align: center;
+  font-size: 55px;
+  text-decoration: underline overline;
+  margin-bottom: 8rem;
 }
 
 .BabyDiv p {
-//   margin-right:10%;
-  transform:rotate(-4deg);
+  font-size: 30px;
+  transform: rotate(-4deg);
+  @media (max-width: 768px) {
+    transform: rotate(0deg);
+  }
 }
