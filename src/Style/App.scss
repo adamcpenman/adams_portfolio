@@ -1,13 +1,12 @@
-
 .App {
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 85vh;
-   @media (max-width: 500px) {
-              height: 70vh;
-          }
+  @media (max-width: 500px) {
+    height: 70vh;
+  }
 }
 
 body {
@@ -15,26 +14,27 @@ body {
   margin: 0;
   color: #fff;
   overflow-x: hidden;
-  background: linear-gradient(rgba(0, 0, 0, 0.855), rgba(48, 1, 53, 0.897)) , url('../Images/unicorn.png') center center scroll;
+  background: linear-gradient(rgba(0, 0, 0, 0.855), rgba(0, 0, 0, 0.897)),
+    url('../Images/unicorn.png') center center scroll;
   background-repeat: no-repeat;
   background-position: right bottom;
   background-attachment: fixed;
-   @media (max-width: 500px) {
-                background-position: top center;
-                // background-attachment: scroll;
-              }
+  @media (max-width: 500px) {
+    background-position: top center;
+    // background-attachment: scroll;
+  }
 }
 
-//trying to figure out my margins overflow 
+//trying to figure out my margins overflow
 //.overflow {
-  //    outline: none;
-  // margin: 0;
-  // color: #fff;
-  // overflow-x: hidden;
+//    outline: none;
+// margin: 0;
+// color: #fff;
+// overflow-x: hidden;
 //}
 
 //.overflow::after {
-  // overflow:hidden;
+// overflow:hidden;
 // position:absolute;
 //     content: "";
 //     display:block;
@@ -46,6 +46,3 @@ body {
 //     height: 0;
 //     border-color: #111 transparent transparent transparent;
 //}
-
-
-

@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 import { Html5 } from 'styled-icons/boxicons-logos/Html5';
 import { FileCss } from 'styled-icons/boxicons-solid/FileCss';
 import { Javascript } from 'styled-icons/boxicons-logos/Javascript';
@@ -13,11 +12,10 @@ import { Sass } from 'styled-icons/boxicons-logos/Sass';
 import Knex from '../Images/knex.png';
 import SQL from '../Images/SQL.png';
 
-
 function Languages() {
   return (
-    <div className="border">
-      <h1 className="langTitle">Langauges & Libraries</h1>
+    <div className='border'>
+      {/* <h1 className="langTitle">Langauges & Libraries</h1>
       <div className="mainDiv">
         <div className="topDiv">
 
@@ -41,7 +39,7 @@ function Languages() {
           </div>
           <p className="pL"> For a full list of languages, libaries, and frameworks - Take a look at my resume <a href="https://resume.creddle.io/resume/30s59fxpaxv" target="_blank">here</a></p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

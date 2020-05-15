@@ -1,11 +1,11 @@
-import React from "react";
-import Fade from "react-reveal/Fade";
+import React from 'react';
+import Fade from 'react-reveal/Fade';
 
 function Projects() {
   return (
-    <div id="ScrollToProjects">
-      <h1 className="projTitle">Projects</h1>
-      <div className="TopDiv1">
+    <div id='ScrollToProjects'>
+      <h1 className='projTitle'>Projects</h1>
+      {/* <div className="TopDiv1">
         <Fade right cascade delay={300}>
           <div className="MainDiv1">
             <div className="BabyDiv1">
@@ -75,7 +75,7 @@ function Projects() {
             </div>
           </div>
         </div>
-      </Fade>
+      </Fade> */}
     </div>
   );
 }
