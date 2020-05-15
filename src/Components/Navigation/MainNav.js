@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 
 import SideDrawer from './SideDrawer';
 import Backdrop from './Backdrop';

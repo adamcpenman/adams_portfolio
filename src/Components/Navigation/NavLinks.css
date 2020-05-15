@@ -11,9 +11,9 @@
   /* border: 1px solid red; */
 }
 
-.nav-links li {
+/* .nav-links li {
   margin: 1rem;
-}
+} */
 
 .nav-links a {
   border: 1px solid transparent;
@@ -25,9 +25,10 @@
 .nav-links a:hover,
 .nav-links a:active,
 .nav-links a.active {
-  background: pink;
+  background: #d4afb9;
   border-color: #292929;
   color: #292929;
+  margin: 2px;
 }
 
 .nav-links button {
@@ -52,10 +53,6 @@
 @media (min-width: 768px) {
   .nav-links {
     flex-direction: row;
-  }
-
-  .nav-links li {
-    margin: 0 0.5rem;
   }
 
   .nav-links a {
