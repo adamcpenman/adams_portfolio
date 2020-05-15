@@ -8,7 +8,9 @@ function HeaderAnimation() {
       <h1 className='h1Main' className='glow'>
         Hello, I'm Adam!
       </h1>
-      <h1 className='h1Sub'>I create dynamic websites and applicatons</h1>
+      <h1 className='h1Sub'>
+        I create dynamic websites and find solutions when it breaks.
+      </h1>
     </div>
   );
 }
