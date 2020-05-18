@@ -30,6 +30,11 @@
   @media (max-width: 768px) {
     transform: rotate(0deg);
   }
+  @media (max-width: 500px) {
+    background-color: none;
+    box-shadow: none;
+    border: none;
+  }
 
   .BabyDiv1 {
     width: 85%;
@@ -110,9 +115,12 @@
     background-color: black;
     opacity: 1;
     border-radius: 10px;
-  }
-
-  @media (max-width: 768px) {
+    @media (max-width: 500px) {
+      left: 0px;
+      top: 0px;
+      width: calc(100% - 0px);
+      height: calc(100% - 0px);
+    }
   }
 }
 
@@ -139,6 +147,14 @@
   transform: rotate(2deg);
   @media (max-width: 768px) {
     transform: rotate(0deg);
+    background-color: none;
+    box-shadow: none;
+    border: none;
+  }
+  @media (max-width: 500px) {
+    background-color: none;
+    box-shadow: none;
+    border: none;
   }
 
   .BabyDiv2 {
@@ -220,8 +236,11 @@
     background-color: black;
     opacity: 1;
     border-radius: 10px;
-  }
-
-  @media (max-width: 768px) {
+    @media (max-width: 500px) {
+      left: 0px;
+      top: 0px;
+      width: calc(100% - 0px);
+      height: calc(100% - 0px);
+    }
   }
 }
