@@ -5,65 +5,6 @@ function Projects() {
     <div>
       <h1 className='projTitle'>Projects</h1>
       <div className='TopDiv1'>
-        <div className='MainDiv1'>
-          <div className='BabyDiv1'>
-            <h2 className='projectTitle'>
-              <a href='https://guarded-contact-keeper.herokuapp.com/'>
-                Contact Keeper
-              </a>
-            </h2>
-            <p>
-              Express | MongoDB | React | jsonwebtoken | bcryptjs
-              <br /> <br />
-              In this project, I created a backend API using NodeJS & Express.
-              The database is created through MongoDB, along with bcryptjs and
-              jsonwebtoken for added protection of data. The frontend
-              implementation is a fully functional React application. A user can
-              create an account which will be saved in MongoDB. Users have a
-              fully functioning CRUD application for their own personal online
-              address book. <br />
-              <br />
-              <a
-                href='https://github.com/adamcpenman/ContactKeeper'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                Full Repo
-              </a>
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className='TopDiv2'>
-        <div id='ScrollToProjects'>
-          <div className='MainDiv2'>
-            <div className='BabyDiv2'>
-              <h2 className='projectTitle2'>
-                <a href='/'>Weight-Lifting-Journal Back-End API</a>
-              </h2>
-              <p>
-                Express | Knex | Sqlite | jsonwebtoken | bcryptjs | jest
-                <br /> <br />
-                For this project, I created a database using SQL, Express, knex
-                migrations/seeds. Users have the ability to register or login.
-                The passwords are encrypted and each session creates a token.
-                There are end points for a full CRUD application requests. Each
-                end point has restricted path unless a user is logged into the
-                application. Jest testing was implemented throughout. <br />
-                <br />
-                <a
-                  href='https://github.com/weightlift-wept8/Back-End'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  Backend Repo
-                </a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className='TopDiv1'>
         <div id='ScrollToProjects'>
           <div className='MainDiv1'>
             <div className='BabyDiv1'>
@@ -95,6 +36,65 @@ function Projects() {
                 </a>{' '}
                 <a
                   href='https://github.com/adamcpenman/MERN-BE'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  Backend Repo
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className='TopDiv2'>
+        <div className='MainDiv2'>
+          <div className='BabyDiv2'>
+            <h2 className='projectTitle2'>
+              <a href='https://guarded-contact-keeper.herokuapp.com/'>
+                Contact Keeper
+              </a>
+            </h2>
+            <p>
+              Express | MongoDB | React | jsonwebtoken | bcryptjs
+              <br /> <br />
+              In this project, I created a backend API using NodeJS & Express.
+              The database is created through MongoDB, along with bcryptjs and
+              jsonwebtoken for added protection of data. The frontend
+              implementation is a fully functional React application. A user can
+              create an account which will be saved in MongoDB. Users have a
+              fully functioning CRUD application for their own personal online
+              address book. <br />
+              <br />
+              <a
+                href='https://github.com/adamcpenman/ContactKeeper'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                Full Repo
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>{' '}
+      <div className='TopDiv1'>
+        <div className='MainDiv1'>
+          <div id='ScrollToProjects'>
+            <div className='BabyDiv1'>
+              <h2 className='projectTitle'>
+                <a href='/'>Weight-Lifting-Journal Back-End API</a>
+              </h2>
+              <p>
+                Express | Knex | Sqlite | jsonwebtoken | bcryptjs | jest
+                <br /> <br />
+                For this project, I created a database using SQL, Express, knex
+                migrations/seeds. Users have the ability to register or login.
+                The passwords are encrypted and each session creates a token.
+                There are end points for a full CRUD application requests. Each
+                end point has restricted path unless a user is logged into the
+                application. Jest testing was implemented throughout. <br />
+                <br />
+                <a
+                  href='https://github.com/adamcpenman/Weight-Lifting-App-BW'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
