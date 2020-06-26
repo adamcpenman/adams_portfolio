@@ -11,19 +11,19 @@
 
 body {
   outline: none;
-  margin: 0;
   color: #fff;
   overflow-x: hidden;
-  background: linear-gradient(rgba(14, 13, 13, 0.795), rgba(0, 0, 0, 0.897)),
-    url('../Images/unicorn.png') center center scroll;
+  // background: linear-gradient(rgba(14, 13, 13, 0.795), rgba(0, 0, 0, 0.897)),
+  background: url('../Images/unicorn.png') center center scroll;
+  background-size: 300px 300px;
   background-repeat: no-repeat;
   background-position: right bottom;
   background-attachment: fixed;
-  @media (max-width: 500px) {
-    background-position: top center;
-  }
+  // @media (max-width: 500px) {
+  //   background-position: top center;
+  // }
 }
 
-a {
-  color: #e1c4ce;
-}
+// a {
+//   color: #e1c4ce;
+// }

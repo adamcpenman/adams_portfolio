@@ -14,7 +14,7 @@ import Contact from './Components/Contact';
 function App() {
   return (
     <Router>
-      <MainNav />
+      {/* <MainNav /> */}
       <Route exact path='/'>
         <FadeIn delay={300}>
           <div className='App'>
